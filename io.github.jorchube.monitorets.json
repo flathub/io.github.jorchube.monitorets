@@ -8,7 +8,8 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--share=network"
     ],
     "cleanup" : [
         "/include",
@@ -31,8 +32,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/jorchube/monitorets.git",
-                    "tag": "0.5.0",
-                    "commit": "1595adc3326622fb28fe627dc29da2a188e28fcb"
+                    "tag": "0.5.1",
+                    "commit": "4e18ee5240c12fc5d5c452210fa18cc46afdbca8"
                 }
             ]
         }
