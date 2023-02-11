@@ -34,7 +34,7 @@
                     "type" : "git",
                     "url" : "https://github.com/jorchube/monitorets.git",
                     "tag": "0.9.2",
-                    "commit": "4582c58713641a02d1f6809bf78834ffab0e2769"
+                    "commit": "55e8047ade1dc419c2de397631d48f3a6862f758"
                 }
             ]
         }
