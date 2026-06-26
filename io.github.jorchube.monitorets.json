@@ -1,10 +1,10 @@
 {
-    "app-id" : "io.github.jorchube.monitorets",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "monitorets",
-    "finish-args" : [
+    "app-id": "io.github.jorchube.monitorets",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "command": "monitorets",
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
@@ -12,27 +12,15 @@
         "--filesystem=host:ro",
         "--share=network"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
-    "modules" : [
+    "modules": [
         "pypi-dependencies.json",
         {
-            "name" : "monitorets",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "monitorets",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/jorchube/monitorets.git",
+                    "type": "git",
+                    "url": "https://github.com/jorchube/monitorets.git",
                     "tag": "0.10.1",
                     "commit": "503ff6694f75d8435257590bd7a1fd48188197c3"
                 }
